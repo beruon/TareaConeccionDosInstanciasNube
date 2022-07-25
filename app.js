@@ -21,8 +21,8 @@ app.engine('.hbs', engine({
 app.set('view engine', 'hbs');
 
 app.use(myconnection(mysql, {
-  host: 'localhost',
-  user: 'root',
+  host: 'ec2-18-212-179-108.compute-1.amazonaws.com',
+  user: 'beruon',
   password: 'Beruon3710.',
   port: 3306,
   database: 'primerlabnube'
