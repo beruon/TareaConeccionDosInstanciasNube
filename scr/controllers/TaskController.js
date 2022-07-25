@@ -52,7 +52,7 @@ function index(req, res) {
   }
   
   function update(req, res) {
-    const id = req.params.id;
+    const id = req.params.product_id;
     const data = req.body;
 
     req.getConnection((err, conn) => {
